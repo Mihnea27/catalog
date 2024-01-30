@@ -1,0 +1,647 @@
+execve("./target/debug/quiche-client", ["./target/debug/quiche-client", "https://cloudflare-quic.com/"], 0x7ffcee510208 /* 24 vars */) = 0
+brk(NULL)                               = 0x55e0ef4a6000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc706107000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=141658, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 141658, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc7060e4000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=125312, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 127688, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc7060c4000
+mmap(0x7fc7060c7000, 94208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc7060c7000
+mmap(0x7fc7060de000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7fc7060de000
+mmap(0x7fc7060e2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fc7060e2000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=907784, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 909560, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc705fe5000
+mmap(0x7fc705ff5000, 471040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7fc705ff5000
+mmap(0x7fc706068000, 368640, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x83000) = 0x7fc706068000
+mmap(0x7fc7060c2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xdc000) = 0x7fc7060c2000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220s\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1922136, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 1970000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc705e04000
+mmap(0x7fc705e2a000, 1396736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7fc705e2a000
+mmap(0x7fc705f7f000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17b000) = 0x7fc705f7f000
+mmap(0x7fc705fd2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ce000) = 0x7fc705fd2000
+mmap(0x7fc705fd8000, 53072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc705fd8000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc705e02000
+arch_prctl(ARCH_SET_FS, 0x7fc705e02c00) = 0
+set_tid_address(0x7fc705e02ed0)         = 43096
+set_robust_list(0x7fc705e02ee0, 24)     = 0
+rseq(0x7fc705e03520, 0x20, 0, 0x53053053) = 0
+mprotect(0x7fc705fd2000, 16384, PROT_READ) = 0
+mprotect(0x7fc7060c2000, 4096, PROT_READ) = 0
+mprotect(0x7fc7060e2000, 4096, PROT_READ) = 0
+mprotect(0x55e0ed4df000, 487424, PROT_READ) = 0
+mprotect(0x7fc706139000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7fc7060e4000, 141658)          = 0
+poll([{fd=0, events=0}, {fd=1, events=0}, {fd=2, events=0}], 3, 0) = 0 (Timeout)
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc705e3ffd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x55e0ed2900a0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7fc705e3ffd0}, NULL, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x55e0ed2900a0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7fc705e3ffd0}, NULL, 8) = 0
+sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc706104000
+mprotect(0x7fc706104000, 4096, PROT_NONE) = 0
+sigaltstack({ss_sp=0x7fc706105000, ss_flags=0, ss_size=8192}, NULL) = 0
+getrandom("\xa7\x4b\xcb\x1a\x4c\xab\xf7\x13", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x55e0ef4a6000
+brk(0x55e0ef4c7000)                     = 0x55e0ef4c7000
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "55e0eca66000-55e0ecb1f000 r--p 0"..., 1024) = 1024
+read(3, "            /usr/lib/x86_64-linu"..., 1024) = 1024
+read(3, "                  /usr/lib/x86_6"..., 1024) = 1024
+read(3, "      /usr/lib/x86_64-linux-gnu/"..., 1024) = 534
+close(3)                                = 0
+sched_getaffinity(43096, 32, [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15]) = 8
+ioctl(2, TIOCGWINSZ, 0x7fffd1014240)    = -1 ENOTTY (Inappropriate ioctl for device)
+getrandom("\x0b\x65\x95\x28\x3a\x1b\x69\x7d\x1f\x5e\x1d\x06\xee\x1f\xcc\xe4", 16, GRND_INSECURE) = 16
+mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc705db3000
+munmap(0x7fc705db3000, 323584)          = 0
+brk(0x55e0ef52d000)                     = 0x55e0ef52d000
+brk(0x55e0ef57d000)                     = 0x55e0ef57d000
+brk(0x55e0ef5ea000)                     = 0x55e0ef5ea000
+epoll_create1(EPOLL_CLOEXEC)            = 3
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=569, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=569, ...}, AT_EMPTY_PATH) = 0
+read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 569
+read(4, "", 4096)                       = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=569, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=64, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/host.conf", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9, ...}, AT_EMPTY_PATH) = 0
+read(4, "multi on\n", 4096)             = 9
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+futex(0x7fc705fdf42c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=64, ...}, AT_EMPTY_PATH) = 0
+read(4, "# Generated by NetworkManager\nse"..., 4096) = 64
+read(4, "", 4096)                       = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=64, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=232, ...}, AT_EMPTY_PATH) = 0
+lseek(4, 0, SEEK_SET)                   = 0
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\tmi"..., 4096) = 232
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=141658, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 141658, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fc705ddf000
+close(4)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=18504, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 20496, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc7060fe000
+mmap(0x7fc7060ff000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1000) = 0x7fc7060ff000
+mmap(0x7fc706101000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3000) = 0x7fc706101000
+mmap(0x7fc706102000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3000) = 0x7fc706102000
+close(4)                                = 0
+mprotect(0x7fc706102000, 4096, PROT_READ) = 0
+munmap(0x7fc705ddf000, 141658)          = 0
+socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP) = 4
+setsockopt(4, SOL_IP, IP_RECVERR, [1], 4) = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("192.168.1.1")}, 16) = 0
+poll([{fd=4, events=POLLOUT}], 1, 0)    = 1 ([{fd=4, revents=POLLOUT}])
+sendmmsg(4, [{msg_hdr={msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\351D\1\0\0\1\0\0\0\0\0\0\17cloudflare-quic\3com"..., iov_len=37}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, msg_len=37}, {msg_hdr={msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\235F\1\0\0\1\0\0\0\0\0\0\17cloudflare-quic\3com"..., iov_len=37}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, msg_len=37}], 2, MSG_NOSIGNAL) = 2
+poll([{fd=4, events=POLLIN}], 1, 5000)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [85])                = 0
+recvfrom(4, "\351D\201\200\0\1\0\3\0\0\0\0\17cloudflare-quic\3com"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("192.168.1.1")}, [28 => 16]) = 85
+poll([{fd=4, events=POLLIN}], 1, 4995)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [121])               = 0
+recvfrom(4, "\235F\201\200\0\1\0\3\0\0\0\0\17cloudflare-quic\3com"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("192.168.1.1")}, [28 => 16]) = 121
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=2584, ...}, AT_EMPTY_PATH) = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=2584, ...}, AT_EMPTY_PATH) = 0
+read(4, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+futex(0x7fc705fde2e4, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 4
+bind(4, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+getsockname(4, {sa_family=AF_NETLINK, nl_pid=43096, nl_groups=00000000}, [12]) = 0
+sendto(4, [{nlmsg_len=20, nlmsg_type=RTM_GETADDR, nlmsg_flags=NLM_F_REQUEST|NLM_F_DUMP, nlmsg_seq=1706574360, nlmsg_pid=0}, {ifa_family=AF_UNSPEC, ...}], 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+recvmsg(4, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[[{nlmsg_len=76, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1706574360, nlmsg_pid=43096}, {ifa_family=AF_INET, ifa_prefixlen=8, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("127.0.0.1")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("127.0.0.1")], [{nla_len=7, nla_type=IFA_LABEL}, "lo"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=167, tstamp=167}]]], [{nlmsg_len=88, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1706574360, nlmsg_pid=43096}, {ifa_family=AF_INET, ifa_prefixlen=24, ifa_flags=0, ifa_scope=RT_SCOPE_UNIVERSE, ifa_index=if_nametoindex("wlo1")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("192.168.1.98")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("192.168.1.98")], [{nla_len=8, nla_type=IFA_BROADCAST}, inet_addr("192.168.1.255")], [{nla_len=9, nla_type=IFA_LABEL}, "wlo1"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_NOPREFIXROUTE], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=40876, ifa_valid=40876, cstamp=841638, tstamp=841638}]]], [{nlmsg_len=88, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1706574360, nlmsg_pid=43096}, {ifa_family=AF_INET, ifa_prefixlen=16, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_UNIVERSE, ifa_index=if_nametoindex("docker0")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("172.17.0.1")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("172.17.0.1")], [{nla_len=8, nla_type=IFA_BROADCAST}, inet_addr("172.17.255.255")], [{nla_len=12, nla_type=IFA_LABEL}, "docker0"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=1124, tstamp=1124}]]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 252
+recvmsg(4, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[[{nlmsg_len=72, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1706574360, nlmsg_pid=43096}, {ifa_family=AF_INET6, ifa_prefixlen=128, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "::1")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=167, tstamp=167}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT|IFA_F_NOPREFIXROUTE]]], [{nlmsg_len=72, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1706574360, nlmsg_pid=43096}, {ifa_family=AF_INET6, ifa_prefixlen=64, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_LINK, ifa_index=if_nametoindex("wlo1")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "fe80::be53:d9b3:42a2:3169")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=841636, tstamp=841636}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT|IFA_F_NOPREFIXROUTE]]], [{nlmsg_len=80, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1706574360, nlmsg_pid=43096}, {ifa_family=AF_INET6, ifa_prefixlen=64, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_LINK, ifa_index=if_nametoindex("docker0")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "fe80::42:89ff:fe42:b385")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=666996, tstamp=666996}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=5, nla_type=IFA_PROTO}, "\x03"]]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 224
+recvmsg(4, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=20, nlmsg_type=NLMSG_DONE, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1706574360, nlmsg_pid=43096}, 0], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+close(4)                                = 0
+socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("172.67.9.235")}, 16) = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(43558), sin_addr=inet_addr("192.168.1.98")}, [28 => 16]) = 0
+connect(4, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("104.22.9.38")}, 16) = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(46735), sin_addr=inet_addr("192.168.1.98")}, [28 => 16]) = 0
+connect(4, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("104.22.8.38")}, 16) = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(58889), sin_addr=inet_addr("192.168.1.98")}, [28 => 16]) = 0
+close(4)                                = 0
+socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET6, sin6_port=htons(0), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "2606:4700:10::6816:826", &sin6_addr), sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+connect(4, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(4, {sa_family=AF_INET6, sin6_port=htons(0), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "2606:4700:10::6816:926", &sin6_addr), sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+connect(4, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(4, {sa_family=AF_INET6, sin6_port=htons(0), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "2606:4700:10::ac43:9eb", &sin6_addr), sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+close(4)                                = 0
+socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP) = 4
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+epoll_ctl(3, EPOLL_CTL_ADD, 4, {events=EPOLLIN|EPOLLRDHUP|EPOLLET, data={u32=0, u64=0}}) = 0
+openat(AT_FDCWD, "/etc/ssl/cert.pem", O_RDONLY) = -1 ENOENT (No such file or directory)
+futex(0x55e0ed557520, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getrandom(NULL, 0, GRND_NONBLOCK)       = 0
+getrandom("\xeb\x92\xc9\x74\x7f\x80\xe2\x02\x33\x9e\xa8\x5f\x1f\xc4\xd2\xd1\xd2\x69\xc6\x29", 20, 0) = 20
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc7060fd000
+madvise(0x7fc7060fd000, 4096, 0xffffffff /* MADV_??? */) = -1 EINVAL (Invalid argument)
+madvise(0x7fc7060fd000, 4096, MADV_WIPEONFORK) = 0
+futex(0x55e0ed55733c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getrandom("\x78", 1, GRND_NONBLOCK)     = 1
+futex(0x55e0ed557398, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55e0ed55739c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getrandom("\x2d\x98\x21\xd5\x45\x05\xb4\x52\x38\x64\x64\x2c\x77\x0f\x52\x26\x34\x6a\x16\x35\x6c\xd0\xf8\x3f\x86\x2c\x8c\x79\x8a\x4f\x19\xf1"..., 48, 0) = 48
+futex(0x55e0ed556a48, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+sendto(4, "\302\272\272\272\272\20\3000\233\306\t=o\233\237\tL\327\202\215J\352\24\353\222\311t\177\200\342\0023"..., 1200, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 1200
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 999) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "\244\0\0\0\0\24\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\20\3000\233\306\t"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 47
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+getrandom("\xf8\xf6\xed\xfc\xa3\xc4\x5a\x8b\x49\xdd\x00\x86\x53\x1f\x88\xd9\xa4\x5a\xeb\x22", 20, 0) = 20
+getrandom("\x0f\x01\x4d\x5c\x1c\x75\xd7\x33\x7c\x06\xed\x40\xea\xab\x67\x8a", 16, 0) = 16
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "\304\0\0\0\1\20\3000\233\306\t=o\233\237\tL\327\202\215J\352\24\353\222\311t\177\200\342\0023"..., 1200, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 1200
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 999) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "\315\0\0\0\1\24\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\24\1\ng\215\301"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "\300\0\0\0\1\24\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\24\1\ng\215\301"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+futex(0x55e0ed556e30, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+recvfrom(4, "\341\0\0\0\1\24\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\24\1\ng\215\301"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "\356\0\0\0\1\24\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\24\1\ng\215\301"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "\352\0\0\0\1\24\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\24\1\ng\215\301"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 381
+futex(0x55e0ed5571b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55e0ed557338, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55e0ed557278, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55e0ed557020, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55e0ed5568d8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55e0ed556db0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55e0ed556d70, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+newfstatat(AT_FDCWD, "/etc/ssl/certs/653b494a.0", {st_mode=S_IFREG|0644, st_size=1261, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/ssl/certs/653b494a.0", O_RDONLY) = 5
+newfstatat(5, "", {st_mode=S_IFREG|0644, st_size=1261, ...}, AT_EMPTY_PATH) = 0
+read(5, "-----BEGIN CERTIFICATE-----\nMIID"..., 4096) = 1261
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "/etc/ssl/certs/653b494a.1", 0x7fffd0fe39c0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 5
+newfstatat(5, "", {st_mode=S_IFREG|0644, st_size=3664, ...}, AT_EMPTY_PATH) = 0
+newfstatat(5, "", {st_mode=S_IFREG|0644, st_size=3664, ...}, AT_EMPTY_PATH) = 0
+read(5, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\10\0\0\0\0"..., 4096) = 3664
+lseek(5, -2329, SEEK_CUR)               = 1335
+read(5, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\10\0\0\0\0"..., 4096) = 2329
+close(5)                                = 0
+futex(0x55e0ed557470, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "\312\0\0\0\1\24\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\24\353\222\311t\177"..., 1350, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 1350
+sendto(4, "B\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r[\3029\220\361\23\341\302l\3\24"..., 44, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 44
+sendto(4, "L\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\1\240\212\270\304\375D\224\234\316j"..., 44, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 44
+sendto(4, "I\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\1772t5w`?s\340\2\206"..., 110, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 110
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 39) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "R\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\255m(j4\366\217[}\373\240"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 553
+recvfrom(4, "Y\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\r\233\244sm\254\32\35\315-d"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 44
+recvfrom(4, "S\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)0\276\342\310\275\263'P*j\345"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 44
+recvfrom(4, "G\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)z]*\22\330\247\354\217\222%Y"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 69
+recvfrom(4, "Y\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)r\2474\313\234\200\365\0x\\\253"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 43
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "K\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r$\210\211@\227,\212\311\211F\206"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 48) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "N\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\275\327t\316T\265|Jj\262\240"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 43
+recvfrom(4, "]\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)4\331\22\204\271\371)\207\367@/"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 44
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "@\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\305\362;\261\325\n\311|\0027\247"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "U\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\3420\267\237\236.0K\205\377\373"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "@\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\272T+\247Q\324\244\32\10\177\247"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "^\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\324\324F\0176#lv\305]\333"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "[\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\340\350\"l\253Aa\201\232\202\24"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "@\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)J\331\16\2029\331\22\37,j\251"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "U\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\271/%\254M{G\337\10\204\250"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "E\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)EZA\362\207\30#\211\351YV"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "_\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\225<+\7s\335\264x\204\210M"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "M\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)HM\317J\376u\275\342\262\356\214"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "<!DOCTYPE html>\n<html lang=\"en\" "..., 3957) = 3957
+write(1, "    <style> html{line-height:1.1"..., 7467) = 7467
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "I\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\316_\220\24\260\343\234KXH\270"..., 44, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 44
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 29999) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "Y\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)|\220q\220i\5\254\257\300\371B"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "G\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)`\333s\10R\220tT\353\361\343"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "F\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\340Y^[3\335\352Z\4\271\347"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "ite{background-color:#fff}.tile_"..., 3463) = 3463
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "F\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\222\234/\33;\n:`\312$\213"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "Y\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\325\207\373;\356\f\236\237\265\376."..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "30424015350im_/https://www.cloud"..., 1156) = 1156
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "K\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\2{\243Gyw|\20<\312U"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "M\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)NY\1-A\253\326\322\326g~"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "H\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\241\36Gl\347\336\363i9r\333"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "-menu__list__item a:visited{font"..., 2310) = 2310
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "C\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\rLt&[X%W?\0327\203"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "T\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)m\242\35Q3#tO\357q\374"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "K\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\312`\270\25t\207\217\363\245\241\32"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "px}}@media(min-width:1000px){.ma"..., 2297) = 2297
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "^\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r{\320\226?\304\301i\354\35\355\372"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "G\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)&)Qy\231K\24%DC\334"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "X\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)!\335\22\362\227\340\361\n\226M\177"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "Z\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)@\372\353\7\16\2469\34#t~"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "    <!-- <l", 11)             = 11
+write(1, "ink rel=\"stylesheet\" href=\"https"..., 3411) = 3411
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "R\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\rX\4\222v\374\345a9\321\2241"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "K\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\317\tX,G\25\24+Q\373\316"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "N\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)l\266\251E2]\343\353\2748\272"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "^\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\263oN\5+\325C\222\246u\244"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "E\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)&\346h\322\246\377\324\325\24w\365"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "  <div class=\"desktop-nav__produ"..., 51) = 51
+write(1, "ntainer\">\n      <span class=\"des"..., 4522) = 4522
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "H\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r+z\310\4\370\305\224\367\0\202s"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "J\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\252\342\33\344~\fh}\224\20l"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "[\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)a\261)\34\274i\315\16\234K\336"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "D\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\237\222\17\343\25(\243\306\355\224\270"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "I\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\275\316\7\262C?xN\352~i"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "          <a href=\"https://www.c"..., 94) = 94
+write(1, "tegory=\"topnav-a\" data-tracking-"..., 4573) = 4573
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "T\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\254E\320\245k\32\303\215\267\214\302"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "L\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306).J\360$*\233\202\370\222\322'"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "        <li class=\"desktop-nav__"..., 40) = 40
+write(1, "__list__item\">\n          <a href"..., 1117) = 1117
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "X\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\232U\352\16\305\332\n\345\177\204\352"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "\\\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)=/\335B\306\243K\302B\343i"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "  <div class=\"desktop-nav__learn"..., 37) = 37
+write(1, "top-nav__container\">\n    <span c"..., 1118) = 1118
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "[\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\rVo\204\272IN\2569\262U\350"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "X\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)]\t\350+0\261z\4\340'\35"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "N\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\370\211\257&\262\216\34\376d\37f"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "      <div class=\"desktop-nav__s"..., 36) = 36
+write(1, "enu__section\">\n    <span class=\""..., 2135) = 2135
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "X\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\213:;I\26\31M\17\22\3139"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "R\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\247\322\3,f\"A\266\20\21\371"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "J\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\311q\t\3\265\375\253\200@t\224"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "          <a href=\"https://www.c"..., 170) = 170
+write(1, "l=\"integrations_ibm_cloud\">\n    "..., 2165) = 2165
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "\\\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\217\30\260Jt\310g2\215c\343"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "T\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306) \364\233jO:\305\10\373\242\24"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "Y\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)2\234\207\226\r3g\327h2\17"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "          <a href=\"https://www.c"..., 143) = 143
+write(1, "ing-label=\"integrations_wpengine"..., 2150) = 2150
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "[\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\rC\364O\371G\210\204\231\340g\271"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "C\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\302UD\201:\362\169\342So"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "          <a href=\"https://www.c"..., 158) = 158
+write(1, "lare_china\">\n            Cloudfl"..., 1151) = 1151
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "J\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\225\377n\263\1\365?\216\3\336\223"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "@\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\2778\216B\264T\377w\201|\303"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "\n        </li>\n        <li class"..., 1143) = 1143
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "L\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\20165\262!fdF]5\350"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "H\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\16U\27b\f\327C\344\225\342\262"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "[\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\32pbL\272\350\240\346\276\231f"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "T\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\376cf\31$L:\273H7\365"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "          <", 11)             = 11
+write(1, "a href=\"https://www.cloudflare.c"..., 3415) = 3415
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "T\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\336b\237\5\252\251\235w\212\342\211"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "X\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)6k\263\227\230\342x/\344]n"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "S\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\311\\b\220\364\301\3\242\20\222\367"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "R\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\31\211\347\216\274\373\260o9Z\362"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "I\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\253\f\202cN\252\306y\"`\304"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "      <a href=\"https://www.cloud"..., 44) = 44
+write(1, "-it/\">\n        Italiano\n      </"..., 4488) = 4488
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "F\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\231E]\36R\25\37 1(\342"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "L\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)/G\250\327g&\301\303\217d\203"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "]\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\353\373i\1\2619P0f\365\275"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "Z\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\253|\5\334\367\305\251\264Q\223\335"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "@\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\33\356\373\324\354\232Ti\33\270i"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                <div class=\"mobi"..., 125) = 125
+write(1, "are.com/security/\" data-tracking"..., 4599) = 4599
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "M\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\345V\341\310\372\26\355T\217d\356"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "Y\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306);P\305yn\261\205;\301\313\307"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "O\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\340i\16Ue\0J\260\22\301\220"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "    <li class=\"mo", 17)      = 17
+write(1, "bile-nav__list__item\">\n      <di"..., 2306) = 2306
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "N\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r7\371\257\231\250\200n\367'\222e"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "_\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)-f\16l\357'\241=\257\321\354"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "_\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\37\322\315\220\2712\302\261\337\360\267"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "  ", 2)                       = 2
+write(1, "              <a href=\"https://w"..., 2264) = 2264
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "G\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\331\0S2\237\375h\206\27X\320"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "B\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)`\216\4(\255\263[\325\219\177"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "W\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)3bW\321\352\346\331\231\254at"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "              <li class=\"desktop"..., 44) = 44
+write(1, "nu__list__item\">\n               "..., 2236) = 2236
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "U\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\33136\250\350 h\372\0364\30"..., 43, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 43
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "Q\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\277\232\313\210Ap\3778\330\207S"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "F\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\22\352\217\211\201p\300U\17\271\227"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                <a href=\"https:/"..., 72) = 72
+write(1, "e/\" data-tracking-category=\"topn"..., 2146) = 2146
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "O\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\276\16T[\2254V\274\324\244\266"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "R\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\242\23\36\2701\227%\235\"\270\233"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "W\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\331\344\341/\242j\204\246\220p&"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "R\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\21a\367\244V\211,#\205\326\264"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "M\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\211\231\326^;\342}\317\207N\232"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "O\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\3633|\363;\315\3\304\214\20\227"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                <div class=\"mobi"..., 156) = 156
+write(1, "y=\"topnav-a\" data-tracking-actio"..., 5729) = 5729
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "A\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r_\307\303u\352\301\251\325\237\177\312"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 30000) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "J\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)P\276$\340\262\372s\231@\367\377"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "J\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)EN=\370\344\2306g:\nX"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "     <a class=\"mobile-nav__link\""..., 38) = 38
+write(1, "\"https://developers.cloudflare.c"..., 2158) = 2158
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "F\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\217\7.hg\253r\256X9{"..., 46, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 46
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 60) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "K\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)'}y\253\327~\227\t\274\207\250"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "S\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\212!\v\237^\275\344\325\227\307C"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "J\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\251\336\300\307\34\305\265/^3V"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "Z\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\2\10\210\305\26\307\205\343\356\273\311"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 150) = 150
+write(1, "MRK6397\" data-tracking-label=\"pe"..., 4442) = 4442
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "V\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r!\230S\304h\216\212.\247\220\220"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 59) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "M\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\301v\320\323E\362\233^\264\353\206"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "X\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\216e{0(HKz9c3"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "L\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\360\332{FB\3108\240AA\253"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 174) = 174
+write(1, " data-tracking-label=\"mobilesdk\""..., 3243) = 3243
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "X\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\3614ja6\316\365\277\332\222L"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 58) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "\\\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\200\3504\267\370\317\275\245\36\370\307"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "O\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\211{\324\366!@ZeD\236\305"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 216) = 216
+write(1, "s_publishers\">\n      Publishers\n"..., 2156) = 2156
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "L\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r,\324\373\251\326\213\376\0q\217\366"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 57) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "I\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\370\347N<\224:\247-\267\365\215"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "R\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)f\355`H\257_\377`8\262\342"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "H\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)*}`'\303\37F\330\30q\373"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "U\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)=y\273\302VR\375~P+*"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 152) = 152
+write(1, "nav-b\" data-tracking-action=\"cli"..., 4490) = 4490
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "Q\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\rh\361\222X\352\341\216\300\242/*"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 56) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "J\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\324\271\367[~\202y\360U=\20"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "N\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306))\3604'Y\4O\341O\214y"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 126) = 126
+write(1, "pnav-b\" data-tracking-action=\"cl"..., 2300) = 2300
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "W\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\re\37g?e\317\344+~Gp"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 55) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "H\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\325\265eB\353\227\323A\301\nf"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "[\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\200L`\274x\217<\3\335C\214"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "C\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\321\352\357\33\366\350\36\n\27\362Y"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "Q\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\343\251$\373oZ\250z|\32\272"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "     ", 5)                    = 5
+write(1, " Connect\n    </div>\n\n           "..., 4603) = 4603
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "U\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\201)i\341\245[MM\340\337\225"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 54) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "P\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\316n\\\24<\2\235\247\253\232B"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "P\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\200Q\237v\360\227\377\331(\"\371"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "      C", 7)                  = 7
+write(1, "hina Network\n    </a>\n\n         "..., 2160) = 2160
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "X\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\207\217\2$\f\343\327\304<4\222"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 54) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "]\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\214Ae\3\330B\214w'\222\255"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 145) = 145
+write(1, "\" data-tracking-action=\"click-MR"..., 1097) = 1097
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "X\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\211\7\317\270\234D :\330\354\335"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 53) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "B\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)C2p\f\377Z:C\371\21\337"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "I\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\307\6-\246\5&\203>+\231\213"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 57) = 57
+write(1, "tps://www.cloudflare.com/product"..., 2263) = 2263
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "R\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\255\242\2176\237c\233IY\306\311"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 52) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "N\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\236\2<O\357\223\362 \27\241\274"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "W\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\3458,\201\25\333x\272F\224\202"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "Y\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\264\203\3\\\204\7C\336sl\220"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "S\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\"\354\263\2473\231\272\30\322\310\177"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <div class=\""..., 42) = 42
+write(1, "wn-header header-black\">\n      S"..., 4559) = 4559
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "W\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\224\331\233\312\304\340=\363|\235="..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 52) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "A\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)uE\257\vDo\213\342\344\35Y"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "P\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\327\251\373\204\220\216-\337\210uC"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "^\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\217~\240\5\235\367Yq\3\323\205"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "V\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\2\263\177}\260]\215\375u\"\373"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 54) = 54
+write(1, "\"https://www.cloudflare.com/inte"..., 4588) = 4588
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "D\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\f;IE\35\212\221V&U\321"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 51) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "A\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\356W%\340\264\266\233\33?\347\232"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "K\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\326\322k`6U9\33\250\217\251"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a cl", 25) = 25
+write(1, "ass=\"nav-dropdown-link\" href=\"ht"..., 2204) = 2204
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "Z\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\rz\367\367\305\226\241\244\6\362l+"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 50) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "V\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\377\342(\3554\320K\313\257\221j"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "R\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\31\33\262XJ\0\273\200\31&\212"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "                    <a class=\"na"..., 104) = 104
+write(1, "tegory=\"topnav-b\" data-tracking-"..., 2246) = 2246
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "E\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r5\247\27\210n\6E3\0241\220"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 50) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "]\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\266\265\265\37\264\377\366\30Z\3526"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "V\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\230\331\177X;\201\30\t\32\203\262"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "[\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)$\256\263\257\326\357^\210\"\350Q"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "E\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\350\333\314\307\200\256|\365\204\214\375"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "R\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\37\235\264\323\225\375TQ\2565Y"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "   <li class=\"desktop-nav__sub-m"..., 62) = 62
+write(1, "s://www.cloudflare.com/plans/ent"..., 5719) = 5719
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "V\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r*IsY\204\221\31C\36\27Q"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 49) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "K\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\356=\5\t\21\266\325t\17\10\276"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "      <div class=\"grid__item gri"..., 48) = 48
+write(1, "ths--40pct-tablet grid__item--no"..., 1117) = 1117
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "Q\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r5\266L\356\6\213\327\23\272\364l"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 47) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "[\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)3\2343\10[\320\334\34\3107\216"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "    <div class=\"grid grid--verti"..., 37) = 37
+write(1, "enter\">\n      <div class=\"grid__"..., 1125) = 1125
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "C\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\0276\305zG\214i\33\272\16)"..., 45, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 45
+epoll_wait(3, [{events=EPOLLIN, data={u32=0, u64=0}}], 1024, 46) = 1
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+recvfrom(4, "N\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\179\333}y\306\26|dm\r"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 1200
+recvfrom(4, "Q\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\215\363\235\317V\337\240\341\320\314\357"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 383
+recvfrom(4, "W\353\222\311t\177\200\342\0023\236\250_\37\304\322\321\322i\306)\25\7\20%\263\202\273&\344\311\316"..., 65535, 0, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, [128 => 16]) = 43
+recvfrom(4, 0x7fffd0ff8cfb, 65535, 0, 0x7fffd0ff7f90, [128]) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "          <h2 class=\"marketin", 29) = 29
+write(1, "g-product-h1 text--center\">Get s"..., 1482) = 1482
+getsockname(4, {sa_family=AF_INET, sin_port=htons(60212), sin_addr=inet_addr("0.0.0.0")}, [128 => 16]) = 0
+sendto(4, "D\1\ng\215\301\300\244x?\v2\215\362\300\2121\216bT\r\324\323\2\254j\36(\256\263\327\343"..., 49, MSG_NOSIGNAL, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("172.67.9.235")}, 16) = 49
+epoll_wait(3, [], 1024, 127)            = 0
+close(4)                                = 0
+close(3)                                = 0
+write(1, "</html>", 7)                  = 7
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+munmap(0x7fc706104000, 12288)           = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

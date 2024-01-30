@@ -1,0 +1,5 @@
+/home/mihnea27/git/personal/catalog/examples/quiche_apps/target/debug/build/quiche-b08f37c4127066f3/out/build/CMakeFiles/crypto.dir
+/home/mihnea27/git/personal/catalog/examples/quiche_apps/target/debug/build/quiche-b08f37c4127066f3/out/build/CMakeFiles/ssl.dir
+/home/mihnea27/git/personal/catalog/examples/quiche_apps/target/debug/build/quiche-b08f37c4127066f3/out/build/CMakeFiles/bssl.dir
+/home/mihnea27/git/personal/catalog/examples/quiche_apps/target/debug/build/quiche-b08f37c4127066f3/out/build/CMakeFiles/edit_cache.dir
+/home/mihnea27/git/personal/catalog/examples/quiche_apps/target/debug/build/quiche-b08f37c4127066f3/out/build/CMakeFiles/rebuild_cache.dir
