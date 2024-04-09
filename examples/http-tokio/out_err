@@ -1,0 +1,308 @@
+   Compiling http-tokio v0.1.0 (/home/mihnea27/git/personal/catalog/examples/http-tokio)
+error: linking with `kraftld` failed: exit status: 1
+  |
+  = note: LC_ALL="C" PATH="/home/mihnea27/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin:/home/mihnea27/.local/bin:/home/mihnea27/bin:/home/mihnea27/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/mihnea27/.local/bin:/usr/sbin:/home/mihnea27/nvim/nvim-linux64/bin" VSLANG="1033" "kraftld" "-m64" "/tmp/rustcxRUCbm/symbols.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.100nw66bkbqt87h4.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.10qlignc1mn2gkxu.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.11828q9rjy6ebygz.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.15hhfg1w0701wbm9.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1a1xy7bbmb1hhqlz.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1assruml6fkrsjaj.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1bruq08968e65wcn.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1cap0n6bakpsncvk.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1dv3w6kohzy8qjn0.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1enk169w6qqolwun.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1eojmnjr1pl3q2k6.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1hjtgl7tvwbqwzq5.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1ifdi6xr2oeffcs8.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1iywzpixj77s1pr1.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1nur98pqz7dsmw5s.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1pj7oy8e3yd828my.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1qt2w4yc8yubmbvi.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1sbmlwh4358h30hd.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1tnizyj5lvv57dq3.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1umbg389fj9qm9yp.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1w4hivsfede95brx.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1z8eyi4pn1cai0e7.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.22y33om1b66a4puc.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.25fsvxea9el5wl8v.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.26ghd7gn3k7zzdnb.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.29qp1p6zxsyw7mgc.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.2banfpuweowag3h1.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.2ec60v5zcua1el37.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.2ly0lhsbdxa7v4tq.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.2o0pasqo77gdg5w4.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.2q27ylo9be7ndkq7.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.2sj2n7wgv2sm4aqc.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.2z2ri63n3u1qqjwj.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3006b3wtapxnu9sl.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.313nqgazgir4p6bp.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.31cu5r4x3l90ijy1.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.31fw1tmgv0q4snua.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.328i01xfujztqk00.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.39p0lh7rlxrjqeo.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3ef6wvv29k8yoter.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3kpmnf69a4p8ic69.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3nmis9ih217w6ppb.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3qqdpxln8vi8zsgm.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3qqteelk2thtro4j.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3rt8rl52qpaifozm.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3sapywqyoa2fbtvz.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.3uv13pfevdfs0cj2.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.419f09z85c88kojw.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4clyut4yjb1u1vlw.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4etq5uib3pdvife.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4gq8rd23saonxn0c.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4hxj4dz9akem8of4.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4iapiq4hfgac4h4j.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4j8l8nnkkhmo2rmt.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4klsc71apyj1o7ba.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4l25fyub2g14566n.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4ns3ub1fr58fg793.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4op6te980t4vdpvh.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4qmysgbnrzvwc7sz.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4qzbajafjsmvbr8a.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4wmdhuyhgegxnz5p.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.4ysm7m95m7ecdhdi.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.512og30gcd2oxz12.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.53lvm69ugqn58ku7.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.56dvhw5iqbkt1xqo.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.56x77aze1ld79z2l.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.5bcgolbuc6b7alfn.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.5c01b8qg0124v3p.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.8tx92slfe57v7ns.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.frvue261xn2k24o.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.kw0asutz4ppb23p.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.l4dvhupqd2bblgl.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.lacc88hb54gg52t.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.niaqi96p2wwskv0.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.o8qgu9pkxomweyg.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.s6tfksyklbpe7x1.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.xyijib1ett1dz0g.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.y3momx53uj0dkk.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.z3wikaidxcp00n3.rcgu.o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414.1vw33jioott85lzy.rcgu.o" "-Wl,--as-needed" "-L" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps" "-L" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/debug/deps" "-L" "/home/mihnea27/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unikraft-linux-musl/lib" "-Wl,-Bstatic" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libtokio-92c119796467b7ba.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libsignal_hook_registry-2977ca9adec4b588.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libnum_cpus-3a666c3343788cf1.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libsocket2-a2390ebec35a5a02.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libbytes-6b02580fb96d5e56.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libmio-85c18966f22dee1c.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libparking_lot-a39375e7ba5a0763.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libparking_lot_core-ccdaa7d392980a50.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/liblibc-d022428bb63f1328.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libcfg_if-95a192da77641f5b.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libsmallvec-842f9f92d64dedac.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/liblock_api-e00972fc3a18a4fc.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libscopeguard-1d930df05d89bc52.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libpin_project_lite-164cb928a4a8a44f.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libstd-99b45799adaaf56f.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libpanic_abort-3e22ccc86330d9c6.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libobject-4854491c52b9fb65.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libmemchr-6dc90f732f3f7883.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libaddr2line-1f413ff6d9e8825d.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libgimli-f2065290e15a2fb3.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/librustc_demangle-d2e6ecfa7c16b1b0.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libstd_detect-2784208116986b8c.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libhashbrown-8d124dc9be1f7b50.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/librustc_std_workspace_alloc-ba6f9da1f0ff0759.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libminiz_oxide-3d74d7008fd6a87f.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libadler-3eb97ade90075860.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libunwind-0a9f46b98f3dcda5.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libcfg_if-c5b717198cafdc48.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/liblibc-9d41425603424e0a.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/liballoc-eabf77196b93df12.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/librustc_std_workspace_core-74d9915ccd0246df.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libcore-5c81605bb064632c.rlib" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/libcompiler_builtins-7aeac33edaa0443a.rlib" "-Wl,-Bdynamic" "-lgcc_s" "-lc" "-Wl,--eh-frame-hdr" "-Wl,-z,noexecstack" "-L" "/home/mihnea27/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unikraft-linux-musl/lib" "-o" "/home/mihnea27/git/personal/catalog/examples/http-tokio/target/x86_64-unikraft-linux-musl/debug/deps/http_tokio-9604e8510d19b414" "-Wl,--gc-sections" "-no-pie" "-nodefaultlibs"
+  = note: level=debug msg="kraftkit 0.7.3"
+          level=debug msg=using builder=unikraft
+          level=info msg="updating index"
+          level=debug msg=fetching manifest="https://manifests.kraftkit.sh/index.yaml"
+          level=info msg="configuring http-tokio (qemu/x86_64)"
+          level=debug msg=defconfig CONFIG_UKPLAT_MEMREGION_MAX_COUNT=128
+          level=debug msg=defconfig CONFIG_LIBMUSL_INTERNAL=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_PASSWD=y
+          level=debug msg=defconfig CONFIG_HAVE_MMIO=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP8=
+          level=debug msg=defconfig CONFIG_LIBMUSL_CONF=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_MALLOC=y
+          level=debug msg=defconfig CONFIG_LWIP_TCP_RECVMBOX_FACTOR=2
+          level=debug msg=defconfig CONFIG_DEBUG_SYMBOLS_LVL3=y
+          level=debug msg=defconfig CONFIG_PLAT_KVM=y
+          level=debug msg=defconfig CONFIG_LWIP_UDP=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_LOCALE_LEGACY=y
+          level=debug msg=defconfig CONFIG_LWIP_SOCKET=y
+          level=debug msg=defconfig CONFIG_LIBUKDEBUG_PRINT_TIME=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP15=
+          level=debug msg=defconfig CONFIG_LIBUKLOCK_MUTEX=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_PROCESS_INIT_PIDS=y
+          level=debug msg=defconfig CONFIG_ARCH_X86_64=y
+          level=debug msg=defconfig CONFIG_LIBUKINTCTLR_MAX_HANDLERS_PER_IRQ=8
+          level=debug msg=defconfig CONFIG_LWIP_NUM_TCPLISTENERS=64
+          level=debug msg=defconfig CONFIG_KVM_DEBUG_SERIAL_CONSOLE=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_PROCESS_CLONE=y
+          level=debug msg=defconfig CONFIG_LIBUKNETDEV=y
+          level=debug msg=defconfig CONFIG_LIBUKMMAP=y
+          level=debug msg=defconfig CONFIG_HAVE_PAGING_DIRECTMAP=y
+          level=debug msg=defconfig CONFIG_LWIP_NETIF_STATUS_PRINT=y
+          level=debug msg=defconfig CONFIG_LIBUKLIBID_INFO_UKFULLVERSION=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_TIME=y
+          level=debug msg=defconfig CONFIG_LIBUKSCHED=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_FORCE_THREAD=y
+          level=debug msg=defconfig CONFIG_HAVE_BOOTENTRY=y
+          level=debug msg=defconfig CONFIG_LIBUKTIMECONV=y
+          level=debug msg=defconfig CONFIG_KVM_KERNEL_SERIAL_CONSOLE=y
+          level=debug msg=defconfig CONFIG_LIBUKFALLOCBUDDY_MAX_ALLOC_ORDER=30
+          level=debug msg=defconfig CONFIG_LIBUKSCHED_TCB_INIT=y
+          level=debug msg=defconfig CONFIG_LIBUKATOMIC=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_CTYPE=y
+          level=debug msg=defconfig CONFIG_LIBUKBUS_PCI=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_SELECT=y
+          level=debug msg=defconfig CONFIG_LIBLWIP=y
+          level=debug msg=defconfig CONFIG_LIBUKBUS=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_TIME=y
+          level=debug msg=defconfig CONFIG_LWIP_IPV4=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_SEARCH=y
+          level=debug msg=defconfig CONFIG_OPTIMIZE_COMPRESS=y
+          level=debug msg=defconfig CONFIG_LIBUKSTREAMBUF=y
+          level=debug msg=defconfig CONFIG_KVM_SERIAL_BAUD_115200=y
+          level=debug msg=defconfig CONFIG_LIBVIRTIO_MMIO=y
+          level=debug msg=defconfig CONFIG_LIBUKSWRAND_CHACHA=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_STDIO=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_UNIXSOCKET_MAX_NAMELEN=128
+          level=debug msg=defconfig CONFIG_LIBUKFALLOC=y
+          level=debug msg=defconfig CONFIG_LIBUKFALLOCBUDDY=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP14=
+          level=debug msg=defconfig CONFIG_LIBVIRTIO_PCI=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP3=
+          level=debug msg=defconfig CONFIG_LIBMUSL_LOCALE=y
+          level=debug msg=defconfig CONFIG_LIBUKSCHEDCOOP=y
+          level=debug msg=defconfig CONFIG_HAVE_LIBC=y
+          level=debug msg=defconfig CONFIG_UK_FULLVERSION="0.16.1~5b5a7d5"
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP6=
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP12=
+          level=debug msg=defconfig CONFIG_MARCH_X86_64_GENERIC=y
+          level=debug msg=defconfig CONFIG_LWIP_UDP_RECVMBOX_FACTOR=2
+          level=debug msg=defconfig CONFIG_LIBMUSL_LINUX=y
+          level=debug msg=defconfig CONFIG_KVM_DEBUG_VGA_CONSOLE=y
+          level=debug msg=defconfig CONFIG_LIBUKDEBUG_PRINTK=y
+          level=debug msg=defconfig CONFIG_LWIP_NETIF_EXT_STATUS_CALLBACK=y
+          level=debug msg=defconfig CONFIG_LWIP_DNS_TABLE_SIZE=32
+          level=debug msg=defconfig CONFIG_KVM_KERNEL_VGA_CONSOLE=y
+          level=debug msg=defconfig CONFIG_LIBUKLIBPARAM=y
+          level=debug msg=defconfig CONFIG_LIBUKLIBID_INFO_COMPILEDATE=y
+          level=debug msg=defconfig CONFIG_PAGING=y
+          level=debug msg=defconfig CONFIG_HAVE_SCHED=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_UNISTD=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_POLL=y
+          level=debug msg=defconfig CONFIG_LIBUKBUS_PLATFORM=y
+          level=debug msg=defconfig CONFIG_LIBSYSCALL_SHIM_LEGACY_VERBOSE=y
+          level=debug msg=defconfig CONFIG_LIBMUSL=y
+          level=debug msg=defconfig CONFIG_LIBUKARGPARSE=y
+          level=debug msg=defconfig CONFIG_HOST_ARCH="x86_64"
+          level=debug msg=defconfig CONFIG_LIBMUSL_FCNTL=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_UNIXSOCKET=y
+          level=debug msg=defconfig CONFIG_LIBSYSCALL_SHIM_NOWRAPPER=y
+          level=debug msg=defconfig CONFIG_LIBUKINTCTLR_XPIC=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_PIPE_SIZE_ORDER=16
+          level=debug msg=defconfig CONFIG_VIRTIO_MMIO_MAX_DEV_CMDLINE=4
+          level=debug msg=defconfig CONFIG_LIBUKDEBUG_REDIR_PRINTD=y
+          level=debug msg=defconfig CONFIG_HAVE_NW_STACK=y
+          level=debug msg=defconfig CONFIG_LIBUKBOOT=y
+          level=debug msg=defconfig CONFIG_LIBUKMPI_MBOX=y
+          level=debug msg=defconfig CONFIG_LIBUKLIBID_INFO=y
+          level=debug msg=defconfig CONFIG_LIBUKBOOT_MAXNBARGS=60
+          level=debug msg=defconfig CONFIG_LIBMUSL_EXIT=y
+          level=debug msg=defconfig CONFIG_LIBUKFILE_CHAINUPDATE=y
+          level=debug msg=defconfig CONFIG_LWIP_WND_SCALE=y
+          level=debug msg=defconfig CONFIG_LWIP_UKNETDEV=y
+          level=debug msg=defconfig CONFIG_HAVE_TIME=y
+          level=debug msg=defconfig CONFIG_LWIP_NUM_TCPCON=64
+          level=debug msg=defconfig CONFIG_LIBUKFILE=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_FDIO=y
+          level=debug msg=defconfig CONFIG_HAVE_APIC=y
+          level=debug msg=defconfig CONFIG_HZ=100
+          level=debug msg=defconfig CONFIG_LIBUKSIGNAL=y
+          level=debug msg=defconfig CONFIG_LWIP_STACKTHREAD_MBOX_SIZE=256
+          level=debug msg=defconfig CONFIG_LIBMUSL_LDSO=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_TERMIOS=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_SETJMP=y
+          level=debug msg=defconfig CONFIG_LIBUKLOCK_SEMAPHORE=y
+          level=debug msg=defconfig CONFIG_LIBUKMPI=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_PRNG=y
+          level=debug msg=defconfig CONFIG_LIBUKALLOCBBUDDY=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP10=
+          level=debug msg=defconfig CONFIG_LIBMUSL_SCHED=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_MULTIBYTE=y
+          level=debug msg=defconfig CONFIG_LIBUKLOCK=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_MATH=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_ERRNO=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_PIPE=y
+          level=debug msg=defconfig CONFIG_OPTIMIZE_PERF=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_FUTEX=y
+          level=debug msg=defconfig CONFIG_LIBUKNETDEV_EINFO_LIBPARAM=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP4=
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP5=
+          level=debug msg=defconfig CONFIG_LIBMUSL_MISC=y
+          level=debug msg=defconfig CONFIG_LIBUKALLOC=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_SIGNAL=y
+          level=debug msg=defconfig CONFIG_LIBVFSCORE=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP1=
+          level=debug msg=defconfig CONFIG_LIBMUSL_LEGACY=y
+          level=debug msg=defconfig CONFIG_CPU_EXCEPT_STACK_SIZE_PAGE_ORDER=4
+          level=debug msg=defconfig CONFIG_LIBUKDEBUG_ENABLE_ASSERT=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_FDTAB_MAXFDS=1024
+          level=debug msg=defconfig CONFIG_HAVE_PCI=y
+          level=debug msg=defconfig CONFIG_UK_DEFNAME=http-tokio
+          level=debug msg=defconfig CONFIG_HAVE_PAGING=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_IPC=y
+          level=debug msg=defconfig CONFIG_UKPLAT_LCPU_MAXCOUNT=1
+          level=debug msg=defconfig CONFIG_LWIP_DHCP=y
+          level=debug msg=defconfig CONFIG_UK_APP="/home/mihnea27/git/personal/catalog/examples/http-tokio"
+          level=debug msg=defconfig CONFIG_VIRTIO_DEVICE=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_DIRENT=y
+          level=debug msg=defconfig CONFIG_LIBUKLIBID=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_THREAD=y
+          level=debug msg=defconfig CONFIG_UK_BASE="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft"
+          level=debug msg=defconfig CONFIG_LIBMUSL_AIO=y
+          level=debug msg=defconfig CONFIG_LIBUKSWRAND=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_ENV=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP7=
+          level=debug msg=defconfig CONFIG_LWIP_LOOPBACK=y
+          level=debug msg=defconfig CONFIG_LIBVIRTIO_RING=y
+          level=debug msg=defconfig CONFIG_LIBUKBOOT_INITBBUDDY=y
+          level=debug msg=defconfig CONFIG_LWIP_IP_REASS_MAX_PBUFS=10
+          level=debug msg=defconfig CONFIG_LIBMUSL_NETWORK=y
+          level=debug msg=defconfig CONFIG_LIBUKBOOT_INITSCHEDCOOP=y
+          level=debug msg=defconfig CONFIG_LWIP_POOLS=y
+          level=debug msg=defconfig CONFIG_LIBUKINTCTLR=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_MQ=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP11=
+          level=debug msg=defconfig CONFIG_LIBVIRTIO_NET=y
+          level=debug msg=defconfig CONFIG_LWIP_DNS=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_SOCKET=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP0="PATH=/bin"
+          level=debug msg=defconfig CONFIG_LWIP_TCP_MSS=1460
+          level=debug msg=defconfig CONFIG_LIBPOSIX_FDTAB=y
+          level=debug msg=defconfig CONFIG_LIBUKLIBID_INFO_LIB_COMPILER=y
+          level=debug msg=defconfig CONFIG_LIBUKDEBUG=y
+          level=debug msg=defconfig CONFIG_LIBUKNETDEV_DISPATCHERTHREADS=y
+          level=debug msg=defconfig CONFIG_LIBUKSGLIST=y
+          level=debug msg=defconfig CONFIG_KVM_VMM_QEMU=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_FENV=y
+          level=debug msg=defconfig CONFIG_LWIP_DNS_MAX_SERVERS=2
+          level=debug msg=defconfig CONFIG_LIBUKLOCK_RWLOCK=y
+          level=debug msg=defconfig CONFIG_LIBSYSCALL_SHIM=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_CRYPT=y
+          level=debug msg=defconfig CONFIG_LWIP_UKNETDEV_SCRATCH=64
+          level=debug msg=defconfig CONFIG_LIBPOSIX_PROCESS_PIDS=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_MMAN=y
+          level=debug msg=defconfig CONFIG_LIBUKDEBUG_PRINT_SRCNAME=y
+          level=debug msg=defconfig CONFIG_LWIP_TCP=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_REGEX=y
+          level=debug msg=defconfig CONFIG_KVM_BOOT_PROTO_MULTIBOOT=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP9=
+          level=debug msg=defconfig CONFIG_LIBVIRTIO_BUS=y
+          level=debug msg=defconfig CONFIG_CROSS_COMPILE=
+          level=debug msg=defconfig CONFIG_LIBPOSIX_PROCESS_MAX_PID=31
+          level=debug msg=defconfig CONFIG_LIBPOSIX_FDTAB_LEGACY_SHIM=y
+          level=debug msg=defconfig CONFIG_LIBISRLIB=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_STDLIB=y
+          level=debug msg=defconfig CONFIG_LIBUKBOOT_HEAP_BASE=0x400000000
+          level=debug msg=defconfig CONFIG_LWIP_AUTOIFACE=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_TEMP=y
+          level=debug msg=defconfig CONFIG_LIBUKBOOT_BANNER_POWEREDBY=y
+          level=debug msg=defconfig CONFIG_OPTIMIZE_NOOMITFP=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP2=
+          level=debug msg=defconfig CONFIG_UKPLAT_AUXSP_PAGE_ORDER=4
+          level=debug msg=defconfig CONFIG_LIBMUSL_PROCESS=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_EVENTFD=y
+          level=debug msg=defconfig CONFIG_LIBUKNETDEV_MAXNBQUEUES=1
+          level=debug msg=defconfig CONFIG_LWIP_UNIKRAFT21X=y
+          level=debug msg=defconfig CONFIG_LIBUKSWRAND_INITIALSEED_TIME=y
+          level=debug msg=defconfig CONFIG_LWIP_STACKTHREAD_MBOX_SIZE_256=y
+          level=debug msg=defconfig CONFIG_UK_CODENAME=Telesto
+          level=debug msg=defconfig CONFIG_LIBPOSIX_PROCESS=y
+          level=debug msg=defconfig CONFIG_UK_ARCH="x86_64"
+          level=debug msg=defconfig CONFIG_LIBMUSL_STAT=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP0_NOTEMPTY=y
+          level=debug msg=defconfig CONFIG_LIBMUSL_STRING=y
+          level=debug msg=defconfig CONFIG_LWIP_ICMP=y
+          level=debug msg=defconfig CONFIG_LIBUKNETDEV_EINFO_LIBPARAM_MAXCOUNT=4
+          level=debug msg=defconfig CONFIG_LLVM_TARGET_ARCH=
+          level=debug msg=defconfig CONFIG_STACK_SIZE_PAGE_ORDER=4
+          level=debug msg=defconfig CONFIG_LWIP_THREADS=y
+          level=debug msg=defconfig CONFIG_UK_NAME=http-tokio
+          level=debug msg=defconfig CONFIG_HAVE_INTCTLR=y
+          level=debug msg=defconfig CONFIG_LIBPOSIX_ENVIRON_ENVP13=
+          level=debug msg=defconfig CONFIG_LIBUKBITOPS=y
+          level=debug msg=defconfig CONFIG_LIBUKDEBUG_PRINTK_ERR=y
+          level=debug msg="make O=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build A=/home/mihnea27/git/personal/catalog/examples/http-tokio L=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/musl:/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip N=http-tokio C=/home/mihnea27/git/personal/catalog/examples/http-tokio/.config.http-tokio_qemu-x86_64 /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/Makefile -C /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft --no-print-directory -s -O"
+          level=info msg="  LN      Makefile"
+          level=debug msg="make UK_DEFCONFIG=/tmp/http-tokio-config4098718361 O=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build A=/home/mihnea27/git/personal/catalog/examples/http-tokio L=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/musl:/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip N=http-tokio C=/home/mihnea27/git/personal/catalog/examples/http-tokio/.config.http-tokio_qemu-x86_64 defconfig -C /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft -n"
+          level=debug msg="make C=/home/mihnea27/git/personal/catalog/examples/http-tokio/.config.http-tokio_qemu-x86_64 UK_DEFCONFIG=/tmp/http-tokio-config4098718361 O=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build A=/home/mihnea27/git/personal/catalog/examples/http-tokio L=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/musl:/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip N=http-tokio defconfig -C /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft --no-print-directory -s -O"
+          level=info msg="  LN      Makefile"
+          level=warning msg="/tmp/http-tokio-config4098718361:62:warning: symbol value '"0x400000000"' invalid for LIBUKBOOT_HEAP_BASE"
+          level=info msg="#"
+          level=info msg="# No change to /home/mihnea27/git/personal/catalog/examples/http-tokio/.config.http-tokio_qemu-x86_64"
+          level=info msg="#"
+          level=info msg="building http-tokio (qemu/x86_64)"
+          level=debug msg="make O=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build A=/home/mihnea27/git/personal/catalog/examples/http-tokio L=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/musl:/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip N=http-tokio C=/home/mihnea27/git/personal/catalog/examples/http-tokio/.config.http-tokio_qemu-x86_64 prepare -C /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft --no-print-directory -O"
+          level=info msg="  LN      Makefile"
+          level=info msg="  CP      config"
+          level=info msg="  GEN     libuklibid: libraries.in.new"
+          level=debug msg="make C=/home/mihnea27/git/personal/catalog/examples/http-tokio/.config.http-tokio_qemu-x86_64 O=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build A=/home/mihnea27/git/personal/catalog/examples/http-tokio L=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/musl:/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip N=http-tokio -C /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft -n"
+          level=debug msg="make O=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build A=/home/mihnea27/git/personal/catalog/examples/http-tokio L=/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/musl:/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip N=http-tokio C=/home/mihnea27/git/personal/catalog/examples/http-tokio/.config.http-tokio_qemu-x86_64 -C /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft --no-print-directory -O"
+          level=info msg="  LN      Makefile"
+          level=info msg="  CP      config"
+          level=info msg="  GEN     libsyscall_shim: provided_syscalls.in.new"
+          level=info msg="  CP      libsyscall_shim: provided_syscalls.in"
+          level=info msg="  GEN     libuklibid: libraries.in.new"
+          level=info msg="  CP      libuklibid: libraries.in"
+          level=info msg="  CC      liblwip: init.o"
+          level=warning msg="In file included from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/libmusl/include/core/include/sys/types.h:70,"
+          level=warning msg="                 from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft/lib/ukswrand/include/uk/swrand.h:36,"
+          level=warning msg="                 from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip/include/arch/cc.h:38,"
+          level=warning msg="                 from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/include/lwip/arch.h:48,"
+          level=warning msg="                 from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/include/lwip/debug.h:40,"
+          level=warning msg="                 from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/include/lwip/opt.h:52,"
+          level=warning msg="                 from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/core/init.c:38:"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/libmusl/include/misc/include/endian.h:14: warning: "BIG_ENDIAN" redefined"
+          level=warning msg="   14 | #define BIG_ENDIAN __BIG_ENDIAN"
+          level=warning msg="      | "
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/include/lwip/arch.h:45: note: this is the location of the previous definition"
+          level=warning msg="   45 | #define BIG_ENDIAN 4321"
+          level=warning msg="      | "
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/libmusl/include/misc/include/endian.h:15: warning: "LITTLE_ENDIAN" redefined"
+          level=warning msg="   15 | #define LITTLE_ENDIAN __LITTLE_ENDIAN"
+          level=warning msg="      | "
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/include/lwip/arch.h:41: note: this is the location of the previous definition"
+          level=warning msg="   41 | #define LITTLE_ENDIAN 1234"
+          level=warning msg="      | "
+          level=warning msg="In file included from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip/include/lwipopts.h:274,"
+          level=warning msg="                 from /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/include/lwip/opt.h:51:"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft/include/uk/essentials.h:77:10: error: token "{" is not valid in preprocessor expressions"
+          level=warning msg="   77 |         ({                                                                     \"
+          level=warning msg="      |          ^"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip/include/lwipopts.h:275:24: note: in expansion of macro 'MAX'"
+          level=warning msg="  275 | #define PBUF_POOL_SIZE MAX(((TCP_WND + TCP_MSS - 1) / TCP_MSS), 2 * IP_REASS_MAX_PBUFS)"
+          level=warning msg="      |                        ^~~"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip/include/lwipopts.h:279:39: note: in expansion of macro 'PBUF_POOL_SIZE'"
+          level=warning msg="  279 | #define PBUF_POOL_BUFSIZE ((TCP_WND / PBUF_POOL_SIZE) + (PBUF_LINK_ENCAPSULATION_HLEN + PBUF_LINK_HLEN + PBUF_IP_HLEN + PBUF_TRANSPORT_HLEN) + 1)"
+          level=warning msg="      |                                       ^~~~~~~~~~~~~~"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/core/init.c:205:6: note: in expansion of macro 'PBUF_POOL_BUFSIZE'"
+          level=warning msg="  205 | #if (PBUF_POOL_BUFSIZE <= MEM_ALIGNMENT)"
+          level=warning msg="      |      ^~~~~~~~~~~~~~~~~"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft/include/uk/essentials.h:77:10: error: token "{" is not valid in preprocessor expressions"
+          level=warning msg="   77 |         ({                                                                     \"
+          level=warning msg="      |          ^"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip/include/lwipopts.h:275:24: note: in expansion of macro 'MAX'"
+          level=warning msg="  275 | #define PBUF_POOL_SIZE MAX(((TCP_WND + TCP_MSS - 1) / TCP_MSS), 2 * IP_REASS_MAX_PBUFS)"
+          level=warning msg="      |                        ^~~"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/core/init.c:315:25: note: in expansion of macro 'PBUF_POOL_SIZE'"
+          level=warning msg="  315 | #if !MEMP_MEM_MALLOC && PBUF_POOL_SIZE && (PBUF_POOL_BUFSIZE <= (PBUF_LINK_ENCAPSULATION_HLEN + PBUF_LINK_HLEN + PBUF_IP_HLEN + PBUF_TRANSPORT_HLEN))"
+          level=warning msg="      |                         ^~~~~~~~~~~~~~"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft/include/uk/essentials.h:77:10: error: token "{" is not valid in preprocessor expressions"
+          level=warning msg="   77 |         ({                                                                     \"
+          level=warning msg="      |          ^"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/libs/lwip/include/lwipopts.h:275:24: note: in expansion of macro 'MAX'"
+          level=warning msg="  275 | #define PBUF_POOL_SIZE MAX(((TCP_WND + TCP_MSS - 1) / TCP_MSS), 2 * IP_REASS_MAX_PBUFS)"
+          level=warning msg="      |                        ^~~"
+          level=warning msg="/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/origin/fork-lwip-UNIKRAFT-2_1_x/src/core/init.c:318:25: note: in expansion of macro 'PBUF_POOL_SIZE'"
+          level=warning msg="  318 | #if !MEMP_MEM_MALLOC && PBUF_POOL_SIZE && (TCP_WND > (PBUF_POOL_SIZE * (PBUF_POOL_BUFSIZE - (PBUF_LINK_ENCAPSULATION_HLEN + PBUF_LINK_HLEN + PBUF_IP_HLEN + PBUF_TRANSPORT_HLEN))))"
+          level=warning msg="      |                         ^~~~~~~~~~~~~~"
+          level=warning msg="make[1]: *** [/home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/unikraft/support/build/Makefile.build:27: /home/mihnea27/git/personal/catalog/examples/http-tokio/.unikraft/build/liblwip/init.o] Error 1"
+          level=warning msg="make: *** [Makefile:1170: sub-make] Error 2"
+          level=error msg="could not complete build: build failed: exit status 2"
+          
+
+error: could not compile `http-tokio` (bin "http-tokio") due to previous error

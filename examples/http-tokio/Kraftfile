@@ -1,12 +1,12 @@
 specification: '0.6'
 name: http-tokio
 
-unikraft: stable
+unikraft: /home/mihnea27/git/personal/unikraft/
 
 libraries:
-  musl: stable
-  lwip: stable
+  musl: 0.16.2
+  lwip: 0.16.2
 
 targets:
   - architecture: x86_64
-    platform: linuxu
+    platform: qemu

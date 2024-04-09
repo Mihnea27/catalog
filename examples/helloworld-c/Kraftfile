@@ -1,13 +1,12 @@
-spec: v0.6
+spec: v0.7
 
 name: helloworld
 
-unikraft: stable
+unikraft:
+  source: /home/mihnea27/git/personal/unikraft
+
+libraries:
+  musl: staging
 
 targets:
-- fc/arm64
-- fc/x86_64
-- linuxu/x86_64
-- qemu/arm64
 - qemu/x86_64
-- xen/x86_64

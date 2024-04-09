@@ -100,8 +100,8 @@ int main(int argc __attribute__((unused)),
 		n = write(client, reply, sizeof(reply) - 1);
 		if (n < 0)
 			fprintf(stderr, "Failed to send a reply\n");
-		else
-			printf("Sent a reply\n");
+		// else
+			// printf("Sent a reply\n");
 
 		/* Close connection */
 		close(client);

@@ -2,11 +2,11 @@ spec: v0.6
 
 name: helloworld
 
-unikraft: stable
+unikraft:
+  source: /home/mihnea27/git/personal/unikraft
 
 libraries:
-  musl: stable
-  lwip: stable
+  musl: staging
 
 targets:
 - qemu/x86_64
