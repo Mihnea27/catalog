@@ -1,27 +1,52 @@
-use std::net::SocketAddr;
-use tokio::net::TcpListener;
+use tokio::net::{TcpListener, TcpStream};
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
+use std::net::SocketAddr;
+
+const LISTEN_PORT: u16 = 8080;
+const REPLY: &str = "HTTP/1.1 200 OK\r\n\
+                     Content-type: text/html\r\n\
+                     Connection: close\r\n\
+                     \r\n\
+                     <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\
+                     <html>\
+                     <head><title>It works!</title></head>\
+                     <body><h1>It works!</h1><p>This is only a test.</p></body>\
+                     </html>\n";
+const BUFLEN: usize = 2048;
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let addr = SocketAddr::from(([0, 0, 0, 0], 8080));
-    let listener = TcpListener::bind(&addr).await?;
+async fn main() {
+    let addr = format!("172.44.0.2:{}", LISTEN_PORT);
+    let listener = TcpListener::bind(&addr).await.expect("Failed to bind to address");
 
-    println!("Listening on: http://{}", addr);
+    println!("Listening on port {}...", LISTEN_PORT);
 
     loop {
-        let (mut stream, _) = listener.accept().await?;
-
-        tokio::spawn(async move {
-            loop {
-                let mut buffer = [0; 1024];
-                let _ = stream.read(&mut buffer).await;
-
-                let contents = "<h1>Hello, world!</h1>";
-                let content_length = contents.len();
-                let response = format!("HTTP/1.1 200 OK\r\nContent-Length: {content_length}\r\n\r\n{contents}");
-                let _ = stream.write_all(response.as_bytes()).await;
+        match listener.accept().await {
+            Ok((stream, _)) => {
+                tokio::spawn(async move {
+                    if let Err(e) = handle_connection(stream).await {
+                        eprintln!("Error handling connection: {}", e);
+                    }
+                });
             }
-        });
+            Err(e) => eprintln!("Failed to accept incoming connection: {}", e),
+        }
     }
 }
+
+async fn handle_connection(mut stream: TcpStream) -> Result<(), Box<dyn std::error::Error>> {
+    let mut recvbuf = vec![0; BUFLEN];
+
+    // Receive some bytes (ignore errors)
+    let _ = stream.read(&mut recvbuf).await;
+
+    // Send reply
+    stream.write_all(REPLY.as_bytes()).await?;
+
+    // Close connection
+    stream.shutdown().await?;
+
+    Ok(())
+}
+
