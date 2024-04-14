@@ -1,0 +1,7 @@
+spec: v0.7
+
+runtime: base:latest
+
+rootfs: ./Dockerfile
+
+cmd: ["/server"]

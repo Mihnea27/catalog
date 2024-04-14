@@ -1,0 +1,12 @@
+spec: v0.7
+
+name: pingora
+
+unikraft: stable
+
+libraries:
+  musl: staging
+  lwip: staging
+
+targets:
+- qemu/x86_64
